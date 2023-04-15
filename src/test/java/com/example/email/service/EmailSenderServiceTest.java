@@ -17,11 +17,6 @@ class EmailSenderServiceTest {
     @Autowired
     private EmailSender emailSender;
 
-    @BeforeEach
-    void setUp(){
-        System.getenv("EMAIL");
-        System.getenv("PASSWORD");
-    }
 
     @Test
     void sendEmail() {
