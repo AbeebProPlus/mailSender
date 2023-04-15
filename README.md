@@ -21,7 +21,7 @@ arduino
 API Endpoints
 The following endpoints are available:
 
-#Send email
+# Send email
 This endpoint sends an email.
 
 URL: /api/email/send
